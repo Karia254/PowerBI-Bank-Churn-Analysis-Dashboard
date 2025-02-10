@@ -90,6 +90,7 @@ A Date Master Table was created to facilitate time-based analysis. This table co
 
 ---
 **Churn Analysis & Insights**
+
 The goal of this analysis was to identify key factors that contribute to customer churn in the bank. Based on the data and DAX measures applied, the following insights were discovered:
 
 1. **Credit Score:**
