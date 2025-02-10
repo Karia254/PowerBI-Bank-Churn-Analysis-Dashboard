@@ -101,7 +101,7 @@ A Date Master Table was created to facilitate time-based analysis. This table co
 
 The goal of this analysis was to identify key factors that contribute to customer churn in the bank. Based on the data and DAX measures applied, the following insights were discovered:
 
-1. **Credit Score:**
+1.**Credit Score:**
 
 **Insight**: Higher credit scores are correlated with lower churn rates. Customers who have Excellent or Very Good credit scores tend to stay longer with the bank and are less likely to churn. Conversely, customers with Fair or Poor credit scores are more likely to leave.
 
@@ -112,12 +112,12 @@ The goal of this analysis was to identify key factors that contribute to custome
 **Insight**: Customers who have been with the bank for a longer period (higher tenure) tend to have lower churn rates. These customers exhibit a higher level of loyalty. In contrast, newer customers, especially those with low tenure, have a significantly higher churn rate.
 **Actionable Insight**: The bank could focus on improving the early customer experience to reduce churn among new customers, such as offering loyalty programs or personalized services.
 
-3. **Balance:**
+3.**Balance:**
 
 **Insight**: Customers with higher account balances exhibit lower churn, while those with lower balances are more likely to exit the bank. High balance customers likely perceive more value in maintaining a relationship with the bank.
 **Actionable Insight**: Offering premium banking services or incentives to customers with low balances might help reduce churn in this group, encouraging them to increase their balance and stay with the bank.
 
-4. **Active Membership:**
+4.**Active Membership:**
 
 **Insight**: Active customers have significantly lower churn rates than inactive ones. Customers who are engaged with the bank and use its services regularly (e.g., through frequent transactions or interactions) are more likely to stay.
 
