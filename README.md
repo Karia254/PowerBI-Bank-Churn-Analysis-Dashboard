@@ -47,7 +47,7 @@ To conduct this analysis, the following datasets were used:
 7. Geography
 
 ---
-**Data Modelling**
+## Data Modelling
 
 The data model for this analysis follows a Star Schema design. The key features of the model are as follows:
 
