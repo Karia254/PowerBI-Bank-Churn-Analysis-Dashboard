@@ -4,7 +4,7 @@
 
 This project aims to analyze and visualize customer churn data for a bank using Power BI. The goal is to identify patterns and trends that contribute to customers leaving the bank. By examining various customer attributes, we can offer insights that may help improve customer retention and inform marketing or loyalty campaigns.
 
-##**Data Dictionary**
+#**Data Dictionary**
 
 The following table provides an explanation of the data fields used in the analysis:
 | **Column Name**   | **Description**                                                                 |
