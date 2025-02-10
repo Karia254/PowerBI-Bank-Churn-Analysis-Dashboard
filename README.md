@@ -30,26 +30,29 @@ The following table provides an explanation of the data fields used in the analy
 **Data Gathering**
 To conduct this analysis, the following datasets were used:
 
-ActiveCustomer
-Bank_Churn
-CreditCard
-CustomerInfo
-ExitCustomer
-Gender
-Geography
+1. ActiveCustomer
+2. Bank_Churn
+3. CreditCard
+4. CustomerInfo
+5. ExitCustomer
+6. Gender
+7. Geography
 
+---
 **Data Modelling**
+
 The data model for this analysis follows a Star Schema design. The key features of the model are as follows:
 
 **Fact Table**: The Bank_Churn table acts as the central fact table, storing information about customer churn (whether a customer exited or retained).
+
 **Dimension Tables**: Several dimension tables were created to provide descriptive attributes related to the fact data. These include:
 
-1. **Customer**: Details about the customer such as ID, gender, age, balance, and salary.
-2. **Geography**: Information related to customer location.
-3. **CreditCard**: Data regarding whether the customer holds a credit card.
-4. **ActiveStatus**: A table indicating if the customer is an active member of the bank.
+   1. **Customer**: Details about the customer such as ID, gender, age, balance, and salary.
+   2. **Geography**: Information related to customer location.
+   3. **CreditCard**: Data regarding whether the customer holds a credit card.
+   4. **ActiveStatus**: A table indicating if the customer is an active member of the bank.
 
-The tables were combined and relationships were created using PowerBI’s relationship feature, linking the fact table to the dimension tables through keys such as CustomerId, GeographyId, and CreditCardId. This enables effective querying and reporting on various dimensions of the customer data (e.g., customer demographics, geographic location, and product holdings).
+The tables were combined and relationships were created using PowerBI’s relationship feature, linking the fact table to the dimension tables through keys such as **CustomerId**, **GeographyId**, and **CreditCardId**. This enables effective querying and reporting on various dimensions of the customer data (e.g., customer demographics, geographic location, and product holdings).
 
 Below is a screenshot of the Data Model in PowerBI:
 ![Data model](https://github.com/user-attachments/assets/88de061b-fdf1-4244-a2dd-c0595af716eb)
