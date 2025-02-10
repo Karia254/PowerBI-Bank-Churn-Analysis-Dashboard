@@ -1,1 +1,6 @@
-# PowerBI-Bank-Churn-Analysis-Dashboard
+# Bank Customer Churn Analysis Dashboard
+
+# **Project Overview**
+
+
+
