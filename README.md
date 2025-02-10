@@ -2,7 +2,15 @@
 
 # **Project Overview**
 
-This project aims to analyze and visualize customer churn data for a bank using Power BI. The goal is to identify patterns and trends that contribute to customers leaving the bank. By examining various customer attributes, we can offer insights that may help improve customer retention and inform marketing or loyalty campaigns.
+This project aims to analyze and visualize customer churn data for a bank using Power BI. The goal is to identify patterns and trends that contribute to customers leaving the bank. By examining various customer attributes, we can offer insights that may help improve customer retention and inform marketing or loyalty campaigns.The dashboard also shows key performance indicators (KPIs) such as:
+- **Total Number of Customers**: The total count of customers in the bank.
+- **Active Customers**: The number of customers who are currently active with the bank.
+- **Inactive Customers**: The number of customers who have become inactive.
+- **Credit Card Holders**: The number of customers who have a credit card with the bank.
+- **Retained Customers**: The number of customers who have stayed with the bank.
+- **Exited Customers**: The number of customers who have left the bank.
+  ![RBC Bank Customer Churn Analysis](https://github.com/user-attachments/assets/916a7134-6b4e-4f0f-8faf-21e7ba1daece)
+
 
 ---
 **Data Dictionary**
