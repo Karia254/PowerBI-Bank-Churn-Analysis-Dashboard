@@ -13,7 +13,7 @@ This project aims to analyze and visualize customer churn data for a bank using 
 
 
 ---
-**Data Dictionary**
+## Data Dictionary
 
 The following table provides an explanation of the data fields used in the analysis:
 | **Column Name**   | **Description**                                                                 |
@@ -35,7 +35,7 @@ The following table provides an explanation of the data fields used in the analy
 | **Bank DOJ**      | Date of joining the bank.                                                      |
 
 ---
-**Data Gathering**
+## Data Gathering
 To conduct this analysis, the following datasets were used:
 
 1. ActiveCustomer
@@ -97,7 +97,7 @@ A Date Master Table was created to facilitate time-based analysis. This table co
 **Day**: For finer date-level insights, such as tracking churn on specific days or trends over specific periods.
 
 ---
-**Churn Analysis & Insights**
+## Churn Analysis & Insights
 
 The goal of this analysis was to identify key factors that contribute to customer churn in the bank. Based on the data and DAX measures applied, the following insights were discovered:
 
