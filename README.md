@@ -58,3 +58,29 @@ Below is a screenshot of the Data Model in PowerBI:
 ![Data model](https://github.com/user-attachments/assets/88de061b-fdf1-4244-a2dd-c0595af716eb)
 
 
+
+---
+**DAX Measures:**
+Measures were created to calculate key metrics, such as **total churn rate**, **average customer age***, **average balance**, and more. These measures allowed for dynamic calculations based on slicers on the dashboard.
+
+**Calculated Columns:** 
+
+Additional calculated columns were created to derive new insights from existing data. These include:
+
+Credit Status: A calculated column that classifies customers according to their Credit Score based on the business requirements:
+**Excellent**: 800–850
+
+**Very Good**: 740–799
+
+**Good: 670–739**
+
+**Fair: 580–669**
+
+**Poor: 300–579**
+
+**Date Master Table:**
+A Date Master Table was created to facilitate time-based analysis. This table contains:
+
+**Year**: Extracted from the customer’s Bank DOJ to allow for year-over-year comparisons.
+**Month**: Extracted from Bank DOJ for monthly trend analysis.
+**Day**: For finer date-level insights, such as tracking churn on specific days or trends over specific periods.
