@@ -79,8 +79,37 @@ Credit Status: A calculated column that classifies customers according to their 
 **Poor: 300–579**
 
 **Date Master Table:**
+
 A Date Master Table was created to facilitate time-based analysis. This table contains:
 
 **Year**: Extracted from the customer’s Bank DOJ to allow for year-over-year comparisons.
+
 **Month**: Extracted from Bank DOJ for monthly trend analysis.
+
 **Day**: For finer date-level insights, such as tracking churn on specific days or trends over specific periods.
+
+---
+**Churn Analysis & Insights**
+The goal of this analysis was to identify key factors that contribute to customer churn in the bank. Based on the data and DAX measures applied, the following insights were discovered:
+
+1. **Credit Score:**
+
+**Insight**: Higher credit scores are correlated with lower churn rates. Customers who have Excellent or Very Good credit scores tend to stay longer with the bank and are less likely to churn. Conversely, customers with Fair or Poor credit scores are more likely to leave.
+
+**Actionable Insight**: The bank can target customers with lower credit scores with retention programs or financial products aimed at improving their credit standing.
+
+2.**Tenure**:
+
+**Insight**: Customers who have been with the bank for a longer period (higher tenure) tend to have lower churn rates. These customers exhibit a higher level of loyalty. In contrast, newer customers, especially those with low tenure, have a significantly higher churn rate.
+**Actionable Insight**: The bank could focus on improving the early customer experience to reduce churn among new customers, such as offering loyalty programs or personalized services.
+
+3. **Balance:**
+
+**Insight**: Customers with higher account balances exhibit lower churn, while those with lower balances are more likely to exit the bank. High balance customers likely perceive more value in maintaining a relationship with the bank.
+**Actionable Insight**: Offering premium banking services or incentives to customers with low balances might help reduce churn in this group, encouraging them to increase their balance and stay with the bank.
+
+4. **Active Membership:**
+
+**Insight**: Active customers have significantly lower churn rates than inactive ones. Customers who are engaged with the bank and use its services regularly (e.g., through frequent transactions or interactions) are more likely to stay.
+
+**Actionable Insight**: The bank should prioritize increasing engagement among inactive customers by introducing personalized offers or incentives to encourage regular use of banking services.
