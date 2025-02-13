@@ -2,7 +2,7 @@
 
 # **Project Overview**
 
-This project aims to analyze and visualize customer churn data for a bank using Power BI. The goal is to identify patterns and trends that contribute to customers leaving the bank. By examining various customer attributes, 1 can offer insights that may help improve customer retention and inform marketing or loyalty campaigns.The dashboard also shows key performance indicators (KPIs) such as:
+This project aims to analyze and visualize customer churn data for a bank using Power BI. The goal is to identify patterns and trends that contribute to customers leaving the bank. By examining various customer attributes, I can offer insights that may help improve customer retention and inform marketing or loyalty campaigns.The dashboard also shows key performance indicators (KPIs) such as:
 - **Total Number of Customers**: The total count of customers in the bank.
 - **Active Customers**: The number of customers who are currently active with the bank.
 - **Inactive Customers**: The number of customers who have become inactive.
