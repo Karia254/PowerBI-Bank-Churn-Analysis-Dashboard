@@ -17,7 +17,7 @@ This project aims to analyze and visualize customer churn data for a bank using 
 
 The following table provides an explanation of the data fields used in the analysis:
 | **Column Name**   | **Description**                                                                 |
-|-------------------|---------------------------------------------------------------------------------|
+|-------------------|--------------------------------------------------------------------------------------------------|
 | **RowNumber**     | Corresponds to the record (row) number; has no effect on output.               |
 | **CustomerId**    | Contains random values; has no impact on customer churn.                        |
 | **Surname**       | Customer’s surname; has no impact on their decision to leave the bank.          |
