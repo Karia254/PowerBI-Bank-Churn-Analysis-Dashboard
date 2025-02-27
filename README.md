@@ -1,6 +1,6 @@
-# Bank Customer Churn Analysis Dashboard
+## Bank Customer Churn Analysis Dashboard
 
-# **Project Overview**
+### **Project Overview**
 
 This project aims to analyze and visualize customer churn data for a bank using Power BI. The goal is to identify patterns and trends that contribute to customers leaving the bank. By examining various customer attributes, I can offer insights that may help improve customer retention and inform marketing or loyalty campaigns.The dashboard also shows key performance indicators (KPIs) such as:
 - **Total Number of Customers**: The total count of customers in the bank.
@@ -13,7 +13,7 @@ This project aims to analyze and visualize customer churn data for a bank using 
 
 
 ---
-## Data Dictionary
+### Data Dictionary
 
 The following table provides an explanation of the data fields used in the analysis:
 | **Column Name**   | **Description**                                                                 |
@@ -35,7 +35,7 @@ The following table provides an explanation of the data fields used in the analy
 | **Bank DOJ**      | Date of joining the bank.                                                      |
 
 ---
-## Data Gathering
+### Data Gathering
 To conduct this analysis, the following datasets were used:
 
 1. ActiveCustomer
@@ -47,7 +47,7 @@ To conduct this analysis, the following datasets were used:
 7. Geography
 
 ---
-## Data Modelling
+### Data Modelling
 
 The data model for this analysis follows a Star Schema design. The key features of the model are as follows:
 
@@ -97,7 +97,7 @@ A Date Master Table was created to facilitate time-based analysis. This table co
 **Day**: For finer date-level insights, such as tracking churn on specific days or trends over specific periods.
 
 ---
-## Churn Analysis & Insights
+### Churn Analysis & Insights
 
 The goal of this analysis was to identify key factors that contribute to customer churn in the bank. Based on the data and DAX measures applied, the following insights were discovered:
 
