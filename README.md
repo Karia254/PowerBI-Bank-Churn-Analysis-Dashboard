@@ -1,7 +1,7 @@
 # Bank Customer Churn Analysis Dashboard
 
 ## **Project Overview**
-This project analyzes customer churn data for a bank using Power BI to identify patterns and trends that contribute to customers leaving. The dashboard provides actionable insights to improve customer retention and inform marketing strategies. Key performance indicators (KPIs) include:
+This project analyzes customer churn data for the Royal Bank of Canada(RBC) using Power BI to identify patterns and trends that contribute to customers leaving. The dashboard provides actionable insights to improve customer retention and inform marketing strategies. Key performance indicators (KPIs) include:
 - **Total Customers**: Total count of customers.
 - **Active Customers**: Number of currently active customers.
 - **Inactive Customers**: Number of inactive customers.
