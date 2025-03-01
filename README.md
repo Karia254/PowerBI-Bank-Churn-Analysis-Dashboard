@@ -11,17 +11,17 @@ This project analyzes customer churn data for the Royal Bank of Canada(RBC) usin
 
 ![RBC Churn](https://github.com/user-attachments/assets/587a329a-e87f-415a-93ee-959f87212efa)
 
----
+
 
 ## **Data Overview**
 The dataset includes customer attributes such as **Credit Score**, **Geography**, **Age**, **Tenure**, **Balance**, **Number of Products**, **Credit Card Status**, **Active Membership**, and **Estimated Salary**. Key fields like **Exited** indicate whether a customer left the bank (1 = Exit, 0 = Retained), while **Bank DOJ** tracks the date of joining.
 
----
+
 
 ## **Data Gathering**
 The analysis uses datasets like **ActiveCustomer**, **Bank_Churn**, **CreditCard**, **CustomerInfo**, **ExitCustomer**, **Gender**, and **Geography** to provide a comprehensive view of customer behavior.
 
----
+
 
 ## **Data Modeling**
 The data model follows a **Star Schema** design:
@@ -32,7 +32,7 @@ Relationships were established using keys like **CustomerId**, **GeographyId**, 
 
 ![Data Model](https://github.com/user-attachments/assets/88de061b-fdf1-4244-a2dd-c0595af716eb)
 
----
+
 
 ## **DAX Measures & Calculated Columns**
 - **Measures**: Calculated metrics like **total churn rate**, **average customer age**, and **average balance**.
@@ -40,7 +40,7 @@ Relationships were established using keys like **CustomerId**, **GeographyId**, 
   - **Credit Status**: Classifies customers based on credit scores (e.g., Excellent, Very Good, Good, Fair, Poor).
   - **Date Master Table**: Facilitates time-based analysis with fields like **Year**, **Month**, and **Day** extracted from **Bank DOJ**.
 
----
+
 
 ## **Churn Analysis & Insights**
 
@@ -86,7 +86,7 @@ Relationships were established using keys like **CustomerId**, **GeographyId**, 
   - Investigate the reasons behind the high churn in Germany (e.g., economic factors, competitor offerings, customer dissatisfaction).
   - Implement region-specific customer engagement strategies, such as localized services, better customer support, or competitive banking products.
 
----
+
 
 ## **Conclusion**
 The **Bank Customer Churn Analysis Dashboard** provides valuable insights into the factors influencing customer churn at the **Royal Bank of Canada (RBC)**. By analyzing key metrics such as **credit score, tenure, balance, and geography**, the bank can implement targeted strategies to enhance customer retention.
